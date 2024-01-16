@@ -3,7 +3,7 @@ import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 
-import { Box, Button,Typography } from "@mui/material";
+import { Box, Button, Typography } from "@mui/material";
 import { createTheme, styled } from "@mui/material/styles";
 import { Roboto } from "next/font/google";
 import { Colors } from "./Colors";

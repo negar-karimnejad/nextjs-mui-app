@@ -1,5 +1,5 @@
 import MainMenu from "@/components/MainMenu";
-import { Box, Container } from "@mui/material";
+import { Box, Container, Typography } from "@mui/material";
 
 export default function Home() {
   return (
@@ -10,9 +10,13 @@ export default function Home() {
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "center",
+        textAlign: "center",
       }}
     >
       <Box>
+        <Typography variant="h4" marginBottom={5}>
+          Let&apos;s Play🎮
+        </Typography>
         <MainMenu />
       </Box>
     </Container>
